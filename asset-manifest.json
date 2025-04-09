@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/victortech-porfolio/static/css/main.1194a95a.css",
+    "main.js": "/victortech-porfolio/static/js/main.e1085647.js",
+    "static/media/profile.png": "/victortech-porfolio/static/media/profile.f1a35ff097bbe1f5997b.png",
+    "static/media/proj11.png": "/victortech-porfolio/static/media/proj11.59f44ea988e92590d9b3.png",
+    "static/media/project2.png": "/victortech-porfolio/static/media/project2.19201f753aa0975967d0.png",
+    "static/media/project1.png": "/victortech-porfolio/static/media/project1.6cbe9c49fb47a80f1fe6.png",
+    "index.html": "/victortech-porfolio/index.html",
+    "main.1194a95a.css.map": "/victortech-porfolio/static/css/main.1194a95a.css.map",
+    "main.e1085647.js.map": "/victortech-porfolio/static/js/main.e1085647.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1194a95a.css",
+    "static/js/main.e1085647.js"
+  ]
+}
