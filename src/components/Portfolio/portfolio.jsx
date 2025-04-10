@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 // Remove the image imports that are causing errors
 // import proj1 from "../assets/images/proj9.png";
-import proj2 from "../../assets/proj11.png";
+// import proj2 from "../../assets/proj11.png";
 // import proj3 from "../assets/images/proj12.png";
 // Remove icon imports until you install the packages
 // import { FaGithub } from "react-icons/fa";
 // import { HiOutlineExternalLink } from "react-icons/hi";
-import { FiChevronDown } from "react-icons/fi";
+// import { FiChevronDown } from "react-icons/fi";
 import "./portfolio.css"; 
 
 const projects = [
@@ -24,7 +24,7 @@ const projects = [
         desc: " Deploying an EKS Cluster with Terraform and Jenkins",
         devstacks: "AWS, Terraform, Jenkins, Kubernetes",
         github: "https://github.com/VicProjects12/terraform-jenkins-EKS",
-        src: proj2,
+        //src: proj2,
         type: "DevOps",
     },
     {
