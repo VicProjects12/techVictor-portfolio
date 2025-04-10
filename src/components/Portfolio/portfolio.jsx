@@ -6,7 +6,7 @@ import proj2 from "../../assets/proj11.png";
 // Remove icon imports until you install the packages
 // import { FaGithub } from "react-icons/fa";
 // import { HiOutlineExternalLink } from "react-icons/hi";
-// import { FiChevronDown } from "react-icons/fi";
+import { FiChevronDown } from "react-icons/fi";
 import "./portfolio.css"; 
 
 const projects = [
@@ -29,12 +29,21 @@ const projects = [
     },
     {
         title: "Blog Website",
-        desc: "A React Ecommerce Website for a african foods, sauce and condiments delivery company",
+        desc: "A React Blog Website",
         devstacks: "React, Bootstrap, Postgres, Javascript",
         github: "https://github.com/VicProjects12/TechXtra-blog",
         // src: proj1,
-        type: "Ecommerce",
+        type: "Blog",
+    },
+    {
+        title: "Portfolio Website",
+        desc: "My Portfolio website",
+        devstacks: "React, Javascript, HTML, CSS",
+        github: "https://vicprojects12.github.io/techVictor-portfolio/",
+        // src: proj1,
+        type: "Website",
     }
+
 ];
 
 const Portfolio = () => {
@@ -71,7 +80,7 @@ const Portfolio = () => {
                                     <span className="project-number">
                                         0{index + 1}
                                     </span>
-                                    {/* Replace with simple arrow down character until you install react-icons */}
+                                   
                                     <span className={`chevron-icon ${
                                         expandedIndex === index ? "rotate" : ""
                                     }`}>
@@ -83,7 +92,7 @@ const Portfolio = () => {
                             {expandedIndex === index && (
                                 <div className="project-details">
                                     <div className="project-content">
-                                        {/* Replace image with a placeholder div */}
+                                        
                                         <div className="project-image-placeholder">
                                             Project Image
                                         </div>

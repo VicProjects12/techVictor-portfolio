@@ -2,7 +2,7 @@
 .portfolio-section {
     color: white;
     padding: 6rem 0;
-    background-color: rgb(2, 2, 34); /* Matching the body background color */
+    background-color: rgb(2, 2, 34); 
   }
   
   @media (min-width: 768px) {
@@ -139,13 +139,13 @@
   }
   
   .project-stack {
-    color: #6ee7b7; /* emerald-300 */
+    color: #6ee7b7; 
     font-weight: 500;
     margin-bottom: 0.5rem;
   }
   
   .project-type {
-    color: rgba(110, 231, 183, 0.6); /* emerald-400/60 */
+    color: rgba(110, 231, 183, 0.6); 
     font-weight: 500;
     margin-bottom: 1rem;
     text-transform: capitalize;
@@ -158,21 +158,21 @@
   }
   
   .project-link {
-    color: #6ee7b7; /* emerald-400 */
+    color: #6ee7b7; 
     transition: color 0.3s ease;
     font-size: 1.25rem;
   }
   
   .project-link:hover {
-    color: #93c5fd; /* blue-300 */
+    color: #93c5fd; 
   }
   
   .github-link {
-    color: #a3a3a3; /* gray-400 */
+    color: #a3a3a3; 
   }
   
   .github-link:hover {
-    color: #d4d4d4; /* gray-300 */
+    color: #d4d4d4; 
   }
   
   .link-icon {

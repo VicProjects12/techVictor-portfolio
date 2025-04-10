@@ -1,6 +1,6 @@
 {
+  "homepage": "https://VicProjects12.github.io/techVictor-portfolio",
   "name": "myportfolio",
-  "homepage": "https://VicProjects12.github.io/victortech-porfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
