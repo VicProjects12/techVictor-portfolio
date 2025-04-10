@@ -6,7 +6,6 @@ import { Link } from 'react-scroll';
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const navlinks = [
-  { title: "Home", path: "home" },
   { title: "About", path: "about" },
   { title: "Portfolio", path: "portfolio" },
   { title: "Stack", path: "stack" },
@@ -27,38 +26,38 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <img src={logo} alt="logo" className='logo' />
-      
+
       <div className="desktopMenu">
         {navlinks.map((link, index) => (
-          <Link 
+          <Link
             key={index}
-            to={link.path} 
-            smooth={true} 
-            duration={500} 
+            to={link.path}
+            smooth={true}
+            duration={500}
             className="desktopMenuListItem"
           >
             {link.title}
           </Link>
         ))}
       </div>
-      
+
       <button className="desktopMenuBtn">
         <img src={contactImg} alt="" className="desktopMenuImg" />Contact Me
       </button>
-      
+
       <div className="menu-toggle" onClick={toggleNav}>
         {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
       </div>
-      
+
       <div className={`mobile-nav ${nav ? "open" : ""}`}>
         <ul className="mobile-nav-links">
           {navlinks.map((link, index) => (
             <li key={index}>
-              <Link 
-                to={link.path} 
-                smooth={true} 
+              <Link
+                to={link.path}
+                smooth={true}
                 duration={500}
-                onClick={closeNav} 
+                onClick={closeNav}
                 className="mobile-nav-link"
               >
                 {link.title}
