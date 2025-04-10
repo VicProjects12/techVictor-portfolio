@@ -3,7 +3,6 @@ import project1 from "../../assets/project1.png";
 import project2 from "../../assets/project2.png";
 import "./about.css";
 
-// Change to default export to match your import in App.jsx
 const About = () => {
     return (
         <section id="about" className="about-section">

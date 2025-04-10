@@ -3,7 +3,6 @@ import './intro.css'
 import bg from '../../assets/profile.png';
 import { Link } from 'react-scroll';
 import btnImage from '../../assets/hireme.png';
-
 const Intro = () => {
     return (
         <section id='intro'>
