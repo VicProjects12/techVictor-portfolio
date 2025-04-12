@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/techVictor-portfolio/static/css/main.d20228ec.css",
-    "main.js": "/techVictor-portfolio/static/js/main.32a10f76.js",
+    "main.css": "/techVictor-portfolio/static/css/main.61a493b4.css",
+    "main.js": "/techVictor-portfolio/static/js/main.233b8748.js",
     "static/media/profile.png": "/techVictor-portfolio/static/media/profile.47793636d638b794deec.png",
     "static/media/proj11.png": "/techVictor-portfolio/static/media/proj11.59f44ea988e92590d9b3.png",
     "static/media/project2.png": "/techVictor-portfolio/static/media/project2.19201f753aa0975967d0.png",
     "static/media/project1.png": "/techVictor-portfolio/static/media/project1.6cbe9c49fb47a80f1fe6.png",
     "index.html": "/techVictor-portfolio/index.html",
-    "main.d20228ec.css.map": "/techVictor-portfolio/static/css/main.d20228ec.css.map",
-    "main.32a10f76.js.map": "/techVictor-portfolio/static/js/main.32a10f76.js.map"
+    "main.61a493b4.css.map": "/techVictor-portfolio/static/css/main.61a493b4.css.map",
+    "main.233b8748.js.map": "/techVictor-portfolio/static/js/main.233b8748.js.map"
   },
   "entrypoints": [
-    "static/css/main.d20228ec.css",
-    "static/js/main.32a10f76.js"
+    "static/css/main.61a493b4.css",
+    "static/js/main.233b8748.js"
   ]
 }
